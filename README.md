@@ -31,6 +31,3 @@ The scripts have been tested on the following environments:
 * Server 2012 R2
 * Server 2016
 * Server 2019
-
-## Limitations
-In Server 2016 and Server 2019, SDDL permissions on the WinRM service may not be correctly applied ([Microsoft](https://support.microsoft.com/en-us/help/4494462/events-not-forwarded-if-the-collector-runs-windows-server-2019-or-2016)). Moreover, if the server runs with more than 3.5GB of memory, the SDDL permissions will need to be fixed due to the changes on the host service ([Microsoft](https://docs.microsoft.com/en-us/windows/application-management/svchost-service-refactoring)).
